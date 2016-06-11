@@ -37,23 +37,23 @@
 	<div class="templates hidden">
 		<dl class="result question">
 			<dt>Question</dt>
-				<dd class="question-text"><a href="" target="_blank"></a></dd>
+				<dd class="question-text"><a href="@data.link" target="_blank">@data.title</a></dd>
 			<dt>Asked</dt>
-				<dd class="asked-date"></dd>
+				<dd class="asked-date">@data.date</dd>
 			<dt>Viewed</dt>
-				<dd class="viewed"></dd>
+				<dd class="viewed">@data.viewCount</dd>
 			<dt>Asker</dt>
-				<dd class="asker"></dd>
+				<dd class="asker">@data.asker</dd>
 		</dl>
 		<dl class="result answerers">
 			<dt>Username</dt>
-				<dd class="username-text"><a href="" target="_blank"></a></dd>
+				<dd class="username-text"><a href="@data.link" target="_blank">@data.name</a></dd>
 			<dt>Reputation</dt>
-				<dd class="reputation"></dd>
+				<dd class="reputation">@data.reputation</dd>
 			<dt>Post count</dt>
-				<dd class="reputation"></dd>
+				<dd class="reputation">@data.postCount</dd>
 			<dt>Score</dt>
-				<dd class="reputation"></dd>
+				<dd class="reputation">@data.score</dd>
 		</dl>
 		<div class="error">
 			<p>Uh-oh! Something went wrong with your request. Here's what we know:</p>
